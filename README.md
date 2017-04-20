@@ -34,6 +34,13 @@ For creating a new record
     curl -i -X POST -H "Content-Type:application/json" http://<localhost:8000/your URL>/api/v1/urls -d '{"desktop_url":"<Desktop URL>", "mobile_url":"<mobile URL>"}'
 ```
 
+## Tests
+
+To run the tests
+```
+    ./vendor/bin/phpunit
+```
+
 ## Use
 
 Just open your browser and use the current running URL and type
