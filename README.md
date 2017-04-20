@@ -14,7 +14,10 @@ Go to the UrlShortener directory and run
 ```
 ## Configuration
 
-Configure ".env" as per your database configuration, then run
+Rename or copy  ".env.example" file and create a new .env file in the same location where ".env.example" is.
+Configure ".env" as per your database configuration and create a database with the same name that configures.
+Add random string or just add "base64:NX7XipHmmniH3WD4YTS224UsFZ+dWASBhNhVp0hcFhE=" to "APP_KEY" in ".env"
+Now run
 ```
     php artisan migrate
     php artisan serve
